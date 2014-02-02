@@ -1,1 +1,8 @@
-.. include:: ../HISTORY.rst
+.. _history:
+
+=======
+History
+=======
+
+.. include:: ../CHANGES
+    :start-line: 5
