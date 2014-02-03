@@ -4,3 +4,4 @@ include CHANGES
 include TODO
 include LICENSE
 include README.rst
+include package_metadata.py

@@ -8,7 +8,7 @@ from __future__ import absolute_import, division, print_function, \
 class {{ cookiecutter.repo_name | capitalize }}(object):
     """This is a description of the class."""
 
-    #: An example class variable
+    #: An example class variable.
     aClassVariable = True
 
     def __init__(self, argumentName, anOptionalArg=None):
