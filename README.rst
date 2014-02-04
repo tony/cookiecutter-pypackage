@@ -3,7 +3,7 @@ cookiecutter-pypackage
 ======================
 
 Forked from `cookiecutter`_ template for a Python package. Forked from
-`cookiecutter-pypackage`_.
+`audreyr/cookiecutter-pypackage`_.
 
 It is inspired by `flask`_ and `werkzeug`_'s project style patterns. It is
 used on the `tmuxp`_, `cihai-python`_ and `vcspull`_ projects.
@@ -111,7 +111,7 @@ Usage
 
 Generate a Python package project::
 
-    cookiecutter https://github.com/audreyr/cookiecutter-pypackage.git
+    cookiecutter https://github.com/tony/cookiecutter-pypackage.git
 
 Then:
 
