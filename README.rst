@@ -59,7 +59,7 @@ Packaging
       >>> sys.path.insert(0, path_to_projectroot)  # on a one-off basis
       >>> from package_metadata import p
       >>> print(p.title)
-      Your project namae
+      Your project name
 
   Keeps ``setup.py`` and ``doc/conf.py`` in sync with package metadata.
   pypi and readthedocs distributions build off the latest package data.
