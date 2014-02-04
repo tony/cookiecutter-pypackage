@@ -22,6 +22,19 @@ Testing
 
 - `flask`_/`werkzeug`_-style testsuites. See `werkzeug testsuite`_ on
   github.
+- Use ``run-tests.py`` to run all tests, or pass in arguments to test a
+  particular ``TestSuite``, ``TestCase`` or ``Test``:
+
+  .. code-block:: bash
+
+      $ ./run-tests.py
+      $ ./run-tests.py yourpackage
+      $ ./run-tests.py repo_name.repo_name  # package_name.TestSuite
+      $ ./run-tests.py yourpackage.testsuite.test_something
+      $ ./run-tests.py testsuite.test_something
+      $ ./run-tests.py test_something
+      $ ./run-tests.py test_something test_something_docstring
+
 - ``setup.py`` downloads ``unittest2`` for python 2.6.
 
 Python 2.7+3.3
