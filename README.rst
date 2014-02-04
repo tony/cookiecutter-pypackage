@@ -90,6 +90,11 @@ Docs
 - Automatically generate header spacing based on length of
   ``cookiecutter`` variables.
 
+Example data
+~~~~~~~~~~~~
+
+- Example TestCase.
+- Example Class w/ docstrings.
 
 .. _flask: http://flask.pocoo.org
 .. _werkzeug: http://werkzeug.pocoo.org
