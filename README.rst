@@ -109,15 +109,23 @@ Example data
 Usage
 -----
 
-Generate a Python package project::
+Install `cookiecutter`_:
 
-    cookiecutter https://github.com/tony/cookiecutter-pypackage.git
+.. code-block:: bash
+
+    $ sudo pip install cookiecutter
+
+Generate a Python package project:
+
+.. code-block:: bash
+
+    $ cookiecutter https://github.com/tony/cookiecutter-pypackage.git
 
 Then:
 
 * Create a repo and put it there.
-* Add the repo to your Travis CI account.
-* Add the repo to your ReadTheDocs account + turn on the ReadTheDocs service hook.
+* Add the repo to your `Travis-CI`_ account.
+* Add the repo to your `ReadTheDocs`_ account + turn on the ReadTheDocs service hook.
 * Release your package the standard Python way. Here's a release checklist: https://gist.github.com/audreyr/5990987
 
 Not Exactly What You Want?
