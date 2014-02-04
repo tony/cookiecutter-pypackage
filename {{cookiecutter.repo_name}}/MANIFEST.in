@@ -1,5 +1,7 @@
 include AUTHORS.rst
 include CONTRIBUTING.rst
-include HISTORY.rst
+include CHANGES
+include TODO
 include LICENSE
 include README.rst
+include package_metadata.py
