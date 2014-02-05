@@ -72,6 +72,8 @@ Packaging
   in my package?`_ on StackOverflow.
 
 - Relative imports in ``repo_name/__init__.py``.
+- Relative imports in ``repo_name/testsuite/__init__.py``.
+- Relative imports in ``repo_name/testsuite/{{ cookiecutter.package_name }}.py``.
 
 Docs
 ~~~~
