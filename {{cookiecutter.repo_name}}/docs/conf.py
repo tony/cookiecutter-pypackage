@@ -263,3 +263,19 @@ texinfo_documents = [
 
 # If true, do not generate a @detailmenu in the "Top" node's menu.
 #texinfo_no_detailmenu = False
+
+# Example configuration for intersphinx: refer to the Python standard library.
+intersphinx_mapping = {'http://docs.python.org/': None, 'pip': ('http://sphinx.readthedocs.org/en/latest/', None)}
+
+# section names - optional
+changelog_sections = ["general", "rendering", "tests", "docs"]
+
+# tags to sort on inside of sections - also optional
+changelog_inner_tag_sort = ["feature", "bug"]
+
+# how to render changelog links - these are plain
+# python string templates, ticket/pullreq/changeset number goes
+# in "%s"
+changelog_render_ticket = "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/issues/%s"
+changelog_render_pullreq = "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/pulls/%s"
+changelog_render_changeset = "https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}/commit/%s"
