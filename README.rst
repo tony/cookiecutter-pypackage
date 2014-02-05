@@ -44,7 +44,11 @@ Python 2.7+3.3
 
       from __future__ import absolute_import, division, print_function, \
           with_statement, unicode_literals
-- ``repo_name/_compat.py`` module (derived from flask, werkzeug)
+- ``repo_name/_compat.py`` module (derived from flask, werkzeug and
+  jinja2.) Why a compatibility module? See Armin Ronacher's post `Porting
+  to Python 3 Redux`_.
+
+.. _Porting to Python 3 Redux: http://lucumr.pocoo.org/2013/5/21/porting-to-python-3-redux/
 
 Packaging
 ~~~~~~~~~
