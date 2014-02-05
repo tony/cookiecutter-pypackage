@@ -9,7 +9,7 @@ import sys
 
 from contextlib import contextmanager
 
-from {{ cookiecutter.repo_name }}._compat import StringIO
+from .._compat import StringIO
 
 
 def add_to_path(path):

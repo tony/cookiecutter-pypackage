@@ -1,11 +1,11 @@
 #!/usr/bin/env python
 # -*- coding: utf-8 -*-
 
-"""Tests for {{ cookiecutter.repo_name }}."""
+"""Tests for {{ cookiecutter.project_name }}."""
 from __future__ import absolute_import, division, print_function, \
     with_statement, unicode_literals
 
-from {{ cookiecutter.repo_name }}._compat import text_type, string_types, PY2, reraise
+from .._compat import text_type, string_types, PY2, reraise
 
 try:
     import unittest2 as unittest
