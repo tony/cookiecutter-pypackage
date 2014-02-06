@@ -12,7 +12,7 @@ used on the `tmuxp`_, `cihai-python`_ and `vcspull`_ projects.
 - Vanilla testing setup with `unittest` and `python setup.py test`
 - Travis-CI_: Ready for Travis Continuous Integration testing
 - Tox_ testing: Setup to easily test for Python 2.6, 2.7, 3.3
-- Sphinx_ docs: Documentation ready for generation with, for example, ReadTheDocs_
+- Sphinx_ docs: Documentation ready for generation with, for example, ReadTheDocs_. Note: You can install sphinx docs requirements with ``$ pip install -r docs/requirements.txt``.
 
 Additions and changes
 ---------------------
