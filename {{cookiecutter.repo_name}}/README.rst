@@ -1,6 +1,7 @@
-===============================
+{{ '=' * cookiecutter.project_name|count }}
 {{ cookiecutter.project_name }}
-===============================
+{{ '=' * cookiecutter.project_name|count }}
+
 
 .. image:: https://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}.png?branch=master
     :target: https://travis-ci.org/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}
