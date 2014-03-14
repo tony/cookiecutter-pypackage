@@ -25,7 +25,7 @@ class {{ cookiecutter.repo_name | capitalize }}(object):
 
         self.instanceVariable1 = argumentName
 
-        if aClassVariable:
+        if self.aClassVariable:
             print('Hello')
 
         if anOptionalArg:
