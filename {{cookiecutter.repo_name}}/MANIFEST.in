@@ -6,4 +6,3 @@ include LICENSE
 include README.rst
 include package_metadata.py
 include requirements.txt
-
