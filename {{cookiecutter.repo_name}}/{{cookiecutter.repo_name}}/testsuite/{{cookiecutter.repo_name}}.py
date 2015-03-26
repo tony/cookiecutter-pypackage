@@ -3,8 +3,10 @@
 
 """Tests for `{{ cookiecutter.repo_name }}` module."""
 
-from __future__ import absolute_import, division, print_function, \
-    with_statement, unicode_literals
+from __future__ import (
+    absolute_import, division, print_function, with_statement,
+    unicode_literals
+)
 
 from .. import {{ cookiecutter.repo_name }}
 
