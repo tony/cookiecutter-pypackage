@@ -10,8 +10,9 @@ try:
 except ImportError:
     from distutils.core import setup, find_packages
 
-sys.path.insert(0, os.getcwd())  # we want to grab this:
-from package_metadata import p
+about = {}
+with open("{{ cookiecutter.repo_name }}/__about__.py") as fp:
+    exec(fp.read(), about)
 
 with open('requirements.txt') as f:
     install_reqs = [line for line in f.read().split('\n') if line]
@@ -26,7 +27,7 @@ if sys.argv[-1] == 'publish':
     sys.exit()
 
 if sys.argv[-1] == 'info':
-    for k, v in p.items():
+    for k, v in about.items():
         print('%s: %s' % (k, v))
     sys.exit()
 
@@ -34,20 +35,20 @@ readme = open('README.rst').read()
 history = open('CHANGES').read().replace('.. :changelog:', '')
 
 setup(
-    name=p.title,
-    version=p.version,
-    description=p.description,
+    name=about['__title__'],
+    version=about['__version__'],
+    description=about['__description__'],
     long_description=readme + '\n\n' + history,
-    author=p.author,
-    author_email=p.email,
+    author=about['__author__'],
+    author_email=about['__email__'],
     url='https://github.com/{{ cookiecutter.github_username }}/{{ cookiecutter.repo_name }}',
     packages=find_packages(exclude=['docs']),
     include_package_data=True,
     install_requires=install_reqs,
     tests_require=tests_reqs,
-    license=p.license,
+    license=about['__license__'],
+    keywords=about['__title__'],
     zip_safe=False,
-    keywords=p.title,
     classifiers=[
         'Development Status :: 2 - Pre-Alpha',
         'Intended Audience :: Developers',

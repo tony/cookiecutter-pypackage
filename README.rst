@@ -53,31 +53,32 @@ Python 2.7+3.3
 Packaging
 ~~~~~~~~~
 
-- ``repo_name/__init__.py`` + ``package_metadata.py``: Metadata in
+- ``repo_name/__init__.py`` + ``repo_name/__about__.py``: Metadata in
   ``repo_name/__init__.py`` e.g. ``__title__``, ``__author__`` can be
   accessed via:
 
   .. code-block:: python
 
-      >>> import sys
-      >>> sys.path.insert(0, path_to_projectroot)  # on a one-off basis
-      >>> from package_metadata import p
-      >>> print(p.title)
+      >>> about = {}
+      >>> with open("repo_name/__about__.py") as fp:
+      >>>     exec(fp.read(), about)
+      >>> print(about['__title__'])
       Your project name
 
   Keeps ``setup.py`` and ``doc/conf.py`` in sync with package metadata.
   pypi and readthedocs distributions build off the latest package data.
 
   This method avoids cost of tokenizing and importing python file and
-  avoids encountering potential import errors that may arise. It simple
-  opens the files and pulls data by regex.
+  avoids encountering potential import errors that may arise. It simply
+  opens a vanilla python file and evals it.
 
-  Derived from: `How can I get the version defined in setup.py setuptools
-  in my package?`_ on StackOverflow.
+  Derived from `pypa/warehouse`_.
 
 - Relative imports in ``repo_name/__init__.py``.
 - Relative imports in ``repo_name/testsuite/__init__.py``.
 - Relative imports in ``repo_name/testsuite/{{ cookiecutter.package_name }}.py``.
+
+.. _pypa/warehouse: https://github.com/pypa/warehouse
 
 Docs
 ~~~~

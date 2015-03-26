@@ -2,8 +2,10 @@
 # -*- coding: utf-8 -*-
 
 """Tests for {{ cookiecutter.project_name }}."""
-from __future__ import absolute_import, division, print_function, \
-    with_statement, unicode_literals
+from __future__ import (
+    absolute_import, division, print_function, with_statement,
+    unicode_literals
+)
 
 from .._compat import text_type, string_types, PY2, reraise
 

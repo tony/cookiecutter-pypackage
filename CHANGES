@@ -10,7 +10,9 @@ Here you can find the recent changes to cookiecutter-pypackage
 - Add changelog
 - Update to use the ``__about__``  package metadata convention from
   `pypa/warehouse`_.
+- Update ``README.rst`` example of how package meta data is eval'd.
 - Deprecate ``package_metadata.py``.
+- For ``__future__`` imports, do parens instead of ``\`` for line breaks.
   
 .. _pypa/warehouse: https://github.com/pypa/warehouse
 
