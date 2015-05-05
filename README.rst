@@ -105,7 +105,7 @@ Docs
 Example data
 ~~~~~~~~~~~~
 
-- Example TestCase.
+- Example ``TestCase``.
 - Example Class w/ docstrings.
 
 .. _werkzeug: http://werkzeug.pocoo.org
