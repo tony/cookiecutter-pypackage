@@ -2,6 +2,7 @@
 cookiecutter-pypackage
 ======================
 
+
 Forked from `cookiecutter`_ template for a Python package. Forked from
 `audreyr/cookiecutter-pypackage`_.
 
@@ -12,7 +13,9 @@ used on the `tmuxp`_, `cihai-python`_ and `vcspull`_ projects.
 - Vanilla testing setup with `unittest` and `python setup.py test`
 - Travis-CI_: Ready for Travis Continuous Integration testing
 - Tox_ testing: Setup to easily test for Python 2.6, 2.7, 3.3
-- Sphinx_ docs: Documentation ready for generation with, for example, ReadTheDocs_. Note: You can install sphinx docs requirements with ``$ pip install -r docs/requirements.txt``.
+- Sphinx_ docs: Documentation ready for generation with, for example, 
+  ReadTheDocs_. Note: You can install sphinx docs requirements with 
+  ``$ pip install -r docs/requirements.txt``.
 
 Additions and changes
 ---------------------
@@ -132,8 +135,10 @@ Then:
 
 * Create a repo and put it there.
 * Add the repo to your `Travis-CI`_ account.
-* Add the repo to your `ReadTheDocs`_ account + turn on the ReadTheDocs service hook.
-* Release your package the standard Python way. Here's a release checklist: https://gist.github.com/audreyr/5990987
+* Add the repo to your `ReadTheDocs`_ account + turn on the ReadTheDocs 
+  service hook.
+* Release your package the standard Python way. Here's a release 
+  checklist: https://gist.github.com/audreyr/5990987
 
 Not Exactly What You Want?
 --------------------------
@@ -144,18 +149,19 @@ Similar Cookiecutter Templates
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
 * `audreyr/cookiecutter-pypackage`_: Original pypackage.
-* `Nekroze/cookiecutter-pypackage`_: A fork of this with a PyTest test runner,
-  strict flake8 checking with Travis/Tox, and some docs and `setup.py` differences.
-
+* `Nekroze/cookiecutter-pypackage`_: A fork of this with a PyTest test 
+  runner, strict flake8 checking with Travis/Tox, and some docs and 
+  `setup.py` differences.
 * Also see the `network`_ and `family tree`_ for this repo. (If you find
-  anything that should be listed here, please add it and send a pull request!)
+  anything that should be listed here, please add it and send a pull 
+  request!)
 
 Fork This / Create Your Own
 ~~~~~~~~~~~~~~~~~~~~~~~~~~~
 
-If you have differences in your preferred setup, I encourage you to fork this
-to create your own version. Or create your own; it doesn't strictly have to
-be a fork.
+If you have differences in your preferred setup, I encourage you to fork 
+this to create your own version. Or create your own; it doesn't strictly 
+have to be a fork.
 
 * Once you have your own version working, add it to the Similar Cookiecutter
   Templates list above with a brief description. 
@@ -169,7 +175,14 @@ Or Submit a Pull Request
 I also accept pull requests on this, if they're small, atomic, and if they
 make my own packaging experience better.
 
+See also
+--------
 
+* `tony/cookiecutter-flask`_: `Flask`_ starter, following similar pythonic
+  conventions.
+  
+.. _Flask: http://flask.pocoo.org/
+.. _tony/cookiecutter-flask: https://github.com/tony/cookiecutter-flask
 .. _Travis-CI: http://travis-ci.org/
 .. _Tox: http://testrun.org/tox/
 .. _Sphinx: http://sphinx-doc.org/
