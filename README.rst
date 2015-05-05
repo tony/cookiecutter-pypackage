@@ -2,7 +2,7 @@
 cookiecutter-pypackage-pythonic
 ===============================
 
-.. image:: https://img.shields.io/travis/tony/cookiecutter-pypackage-pythonic
+.. image:: https://img.shields.io/travis/tony/cookiecutter-pypackage-pythonic.svg
    :target: https://travis-ci.org/tony/cookiecutter-pypackage-pythonic
 
 Forked from `cookiecutter`_ template for a Python package. Forked from
