@@ -2,6 +2,8 @@
 cookiecutter-pypackage
 ======================
 
+.. image:: https://img.shields.io/travis/tony/cookiecutter-flask.svg
+   :target: https://travis-ci.org/tony/cookiecutter-flask
 
 Forked from `cookiecutter`_ template for a Python package. Forked from
 `audreyr/cookiecutter-pypackage`_.
