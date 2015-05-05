@@ -6,7 +6,7 @@ cookiecutter-pypackage
 Forked from `cookiecutter`_ template for a Python package. Forked from
 `audreyr/cookiecutter-pypackage`_.
 
-It is inspired by `flask`_ and `werkzeug`_'s project style patterns. It is
+It is inspired by `Flask`_ and `werkzeug`_'s project style patterns. It is
 used on the `tmuxp`_, `cihai-python`_ and `vcspull`_ projects.
 
 - Free software: BSD license
@@ -106,7 +106,6 @@ Example data
 - Example TestCase.
 - Example Class w/ docstrings.
 
-.. _flask: http://flask.pocoo.org
 .. _werkzeug: http://werkzeug.pocoo.org
 .. _werkzeug testsuite: https://github.com/mitsuhiko/werkzeug/tree/master/werkzeug/testsuite
 .. _sqlalchemy: http://sqlalchemy.org
