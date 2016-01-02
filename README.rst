@@ -130,7 +130,7 @@ Generate a Python package project:
 
 .. code-block:: bash
 
-    $ cookiecutter https://github.com/tony/cookiecutter-pypackage.git
+    $ cookiecutter https://github.com/tony/cookiecutter-pypackage-pythonic.git
 
 Then:
 
