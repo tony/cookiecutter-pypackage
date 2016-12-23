@@ -1,0 +1,2 @@
+requirements:
+  - {{cookiecutter.repo_name}}/requirements.txt
